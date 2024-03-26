@@ -1,0 +1,92 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+:root{
+    --color1:yellowgreen;
+   
+}
+body{
+    background-color: rgb(42, 39, 39); 
+
+}
+.nav{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+}
+.stats{
+margin-top: 50px;
+display: flex;
+align-items: center;
+justify-content: space-around;
+margin-left:300px;
+margin-right: 300px;
+}
+.timerdiv,.cwdiv
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: var(--color1);
+    margin: 0px 10px 0px 0px;
+}
+.timerdiv .time, .cwdiv #cw{
+    color: rgb(254, 255, 255);
+    opacity: 0.5;
+    font-size: 50px;
+    margin-left: 10px;
+}
+.container{
+    display: flex;
+    margin: 15px 200px;
+}
+.word-container{
+    color: rgb(117, 117, 117);
+    font-size: 22px;
+}
+.word{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+.input-text{
+    /* resize: none;
+    margin: 5px 20px;
+    background-color: rgba(255, 255, 255, 0.4); */
+    
+        background: #2f2e2e;
+        border: solid, #52575d;
+        border-width: 2px;
+        border-radius: 10px;
+        color: #eeeeee;
+        padding: 8px;
+        font-size: 1.2rem;
+        resize: none;
+        text-align: center;
+        margin-top: 8px;
+        margin-bottom: 15px;
+      
+}
+#restartbtn img{
+    height: 20px;
+    width: 20px;
+}
+.nav h1{
+    color: yellowgreen;
+    font-size: 40px;
+}
+.correct{
+    color: rgb(61, 195, 61);
+    
+}
+.wrong{
+    color: red;
+}
+.current{
+    color: rgb(255, 247, 247);
+}
